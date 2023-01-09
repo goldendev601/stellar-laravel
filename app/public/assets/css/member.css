@@ -1,0 +1,204 @@
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+.memberPage .subSectionTitle {
+    font-size: 16px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+
+.memberPage .loaderWrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 2%;
+}
+
+.memberPage .interest .badge {
+    font-size: 14px !important;
+}
+.leftSideSecrchBox {
+    padding: 20px 20px 20px 30px;
+}
+.memberList {
+    font-family: "Lato";
+    font-style: normal;
+    margin-bottom: 30px;
+}
+.memberList ul {
+    list-style-type: none;
+}
+.memberList ul li {
+    border-bottom: 1px solid #eee;
+}
+.memberList ul li:last-child {
+    border-bottom: none;
+}
+.memberList ul li a {
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    padding: 15px 15px 15px 30px;
+}
+.memberList ul li a:hover {
+    background: #edeef4;
+    box-shadow: 0px 0px 20px rgba(8, 21, 66, 0.05);
+    transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transition: 1s;
+}
+.memberList ul li img {
+    border-radius: 5px;
+    border: 1px solid #eee;
+    padding: 1px;
+    width: 50px;
+    height: 50px;
+    object-fit: cover;
+}
+
+.memberList ul li div {
+    padding: 0 20px;
+    margin: 0;
+}
+.memberList ul li p {
+    margin: 0;
+}
+
+.memberList ul li a.active {
+    background: #edeef4;
+    box-shadow: 0px 0px 20px rgba(8, 21, 66, 0.05);
+    transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.memberList ul li a .name {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.memberList ul li a .phone {
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.editContactBtn {
+    font-size: 14px;
+    line-height: 21px;
+    color: #4d5997;
+    background: rgba(116, 139, 178, 0.1) !important;
+    border-radius: 10px;
+}
+
+.supplierPhoto img {
+    width: 276px;
+    height: 184px;
+}
+
+.rowMemberProfile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.photo-column img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.details-column h4 {
+    margin-bottom: 0px;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 21px;
+}
+.details-column span {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+.details-column p {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+.double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 5;
+}
+
+.general-info h3 {
+    font-size: 18px;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+.general-info .email {
+    font-size: 14px;
+    line-height: 18px;
+    color: #4d5997;
+}
+.restaurantDetails p {
+    font-family: "Lato";
+    font-style: normal;
+}
+.restaurantDetails .border-end {
+    border-right: 1px solid #000000 !important;
+    padding: 0px 5px;
+}
+
+.add-new-member-btn {
+    background: #4d5997;
+    border-radius: 8px;
+    padding: 2px 10px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+}
+
+.add-new-member-btn a {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    display: flex;
+    gap: 5px;
+}
+.add-new-member-btn a:hover {
+    color: #ffffff;
+}
+
+/* member list page filter css */

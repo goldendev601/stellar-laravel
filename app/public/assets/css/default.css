@@ -1,0 +1,54 @@
+@font-face {
+    font-family: "Lato";
+    src: url(../fonts/Lato/Lato-Regular.ttf);
+}
+
+@font-face {
+    font-family: "SF Pro Text";
+    src: url(../fonts/sfprotext/SFProText-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Montserrat";
+    src: url(../fonts/Montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Canela";
+    src: url(../fonts/CanelaFamily/Canela-Regular-Trial.otf);
+}
+
+body {
+    font-family: "SF Pro Text";
+}
+
+h1,
+.h1,
+h2,
+.h2,
+h3,
+.h3,
+h4,
+.h4,
+h5,
+.h5,
+h6,
+.h6 {
+    font-family: "SF Pro Text";
+}
+
+p {
+    font-family: "SF Pro Text";
+}
+
+span {
+    font-family: "SF Pro Text";
+}
+
+label {
+    font-family: "SF Pro Text";
+}
+
+input {
+    font-family: "SF Pro Text";
+}

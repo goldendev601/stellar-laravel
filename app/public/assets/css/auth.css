@@ -1,0 +1,57 @@
+.login-card .login-main .theme-form h4 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+}
+.login-card .login-main .theme-form p {
+    font-family: "Lato";
+    font-style: normal;
+}
+.login-card .login-main .theme-form label,
+.login-card .login-main .theme-form input {
+    font-family: "Lato";
+    font-style: normal;
+}
+
+.login-card .login-main .theme-form .checkbox label {
+    font-family: "SF Pro Text";
+    font-style: normal;
+}
+
+.login-card .login-main .theme-form .forgot-pass-link {
+    font-family: "SF Pro Text";
+    font-style: normal;
+}
+
+.login-card .login-main .login-btn {
+    font-family: "Lato";
+    font-style: normal;
+}
+
+.login-card .login-main .dontHaveAccount,
+.login-card .login-main .dontHaveAccount .text-primary {
+    font-family: "SF Pro Text";
+    font-style: normal;
+}
+
+/*  registration form  */
+
+.login-card .login-main h4,
+.login-card .login-main p {
+    font-family: "Lato";
+    font-style: normal;
+}
+
+.login-card .login-main label,
+.login-card .login-main input,
+.login-card .login-main button {
+    font-family: "Lato";
+    font-style: normal;
+}
+
+.login-card .login-main .alradyHaveAccount {
+    font-family: "SF Pro Text";
+    font-style: normal;
+}

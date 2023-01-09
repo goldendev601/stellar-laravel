@@ -1,0 +1,427 @@
+.icn-spinner {
+    animation: spin-animation 2s infinite;
+    animation-timing-function: linear;
+    display: inline-block;
+}
+
+@keyframes spin-animation {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+.w-40 {
+    width: 40%;
+}
+#inputWithSearchIcon input {
+    border-left: 0px !important;
+    padding-left: 0px !important;
+    background: rgba(77, 89, 151, 0.1);
+    border-radius: 0px 40px 40px 0px;
+    color: #4d5997;
+    margin-left: 0px !important;
+    border-color: transparent !important;
+}
+#inputWithSearchIcon #icon {
+    background: rgba(77, 89, 151, 0.1);
+    color: #4d5997;
+    border-radius: 40px 0px 0px 40px;
+    border-right: none !important;
+    border-color: transparent !important;
+}
+#inputWithSearchIcon input:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+    border-color: transparent !important;
+}
+.form-control:focus {
+    border-color: transparent !important;
+}
+.leftSideSecrchBox {
+    padding: 20px 20px 20px 30px;
+}
+.conversationsList {
+    font-family: "Lato";
+    font-style: normal;
+    margin-bottom: 30px;
+}
+.conversationsList ul {
+    list-style-type: none;
+}
+.conversationsList ul li {
+    border-bottom: 1px solid #eee;
+}
+.conversationsList ul li:last-child {
+    border-bottom: none;
+}
+.conversationsList ul li a {
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    padding: 15px 15px 15px 30px;
+}
+.conversationsList ul li a:hover {
+    background: #edeef4;
+    box-shadow: 0px 0px 20px rgba(8, 21, 66, 0.05);
+    transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transition: 1s;
+}
+.conversationsList ul li img {
+    border-radius: 5px;
+    border: 1px solid #eee;
+    padding: 1px;
+    width: 50px;
+    height: 50px;
+}
+
+.conversationsList ul li div {
+    padding: 0px 0px 0px 10px;
+    margin: 0;
+}
+.conversationsList ul li p {
+    margin: 0;
+}
+
+.conversationsList ul li a.conversationActive {
+    background: rgba(77, 89, 151, 0.1);
+    box-shadow: 0px 0px 20px rgba(8, 21, 66, 0.05);
+    transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.conversationsList ul li a .name {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #313133;
+}
+
+.conversationsList ul li a .lastMsg {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #313133;
+    opacity: 0.5;
+}
+
+.conversationsList ul li a .lastMsgTime {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    text-align: right;
+    color: #677281;
+}
+
+.supplierPhoto img {
+    width: 276px;
+    height: 184px;
+}
+
+/* add new supplier */
+
+.startNewConversationBtn {
+    background: #4d5997;
+    border-radius: 8px;
+    padding: 2px 10px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 48px;
+}
+
+.startNewConversationBtn a {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    display: flex;
+    gap: 5px;
+}
+.startNewConversationBtn a:hover {
+    color: #ffffff;
+}
+
+/* ###################################################### */
+/* Chat window css start here */
+.chat-box .chat-header .about .name {
+    letter-spacing: 1px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 29px;
+    color: #0d203a;
+}
+
+.chat-box .chat-header .about .status {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 18px;
+    color: #677281;
+}
+
+.chat-box .chat-right-aside .chat .chat-msg-box .message-data-time {
+    letter-spacing: 1px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #677281;
+}
+.chat-box .chat-right-aside .chat .chat-msg-box .other-message {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    text-align: right;
+    color: #000;
+    background: #ffffff;
+    border-radius: 14px;
+}
+.chat-box .chat-right-aside .chat .chat-msg-box .chat-user-img {
+    margin-top: 0px !important;
+}
+
+.chat-box .chat-right-aside .chat .chat-msg-box .other-message .message-data {
+    margin-bottom: 10px;
+    background: #f7f7f7;
+    border-radius: 14px;
+    padding: 20px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    color: #636266;
+}
+
+.chat-box
+    .chat-right-aside
+    .chat
+    .chat-msg-box
+    .other-message
+    .message-data-name {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 14px;
+    color: #313133;
+}
+
+/* my msg */
+.chat-box .chat-right-aside .chat .chat-msg-box .my-message {
+    width: 374px;
+    border: none !important;
+    border-radius: none !important;
+}
+.chat-box .chat-right-aside .chat .chat-msg-box .my-message .message-data {
+    color: #ffffff;
+    background: #4d5997;
+    border-radius: 14px;
+    padding: 15px;
+}
+
+.chat-box .chat-right-aside .chat .chat-message .text-box .input-txt-bx {
+    height: 50px;
+    border: 1px solid #dee2e6 !important;
+    padding-left: 18px;
+    font-size: 12px;
+    letter-spacing: 1px;
+    border-radius: 10px 0px 0px 10px;
+    border-left: none !important;
+}
+.chat-box .chat-right-aside .chat .chat-message .text-box .btn {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 18px;
+    color: #ffffff;
+}
+
+.chat-box
+    .chat-right-aside
+    .chat
+    .chat-msg-box
+    .my-message-asset
+    .card-img-top {
+    border-top-left-radius: 14px !important;
+    border-top-right-radius: 14px !important;
+}
+
+.chat-box .chat-right-aside .chat .chat-msg-box .my-message-asset {
+    width: 374px;
+}
+.chat-box .chat-right-aside .chat .chat-msg-box .my-message-asset .card-body {
+    background: #4d5997;
+    color: #fff;
+    border-radius: 0px 0px 14px 14px;
+}
+
+.chat-box .chat-right-aside .chat .chat-msg-box .my-message-asset .asset-title {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    color: #ffffff;
+}
+.chat-box .chat-right-aside .chat .chat-msg-box .my-message-asset .asset-about {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #ffffff;
+}
+
+.chat-box .chat-right-aside .chat .chat-message .text-box i {
+    position: relative !important;
+    right: 0 !important;
+    top: 3px !important;
+    font-size: 20px;
+    color: #000000 !important;
+    opacity: 0.45;
+    cursor: pointer;
+}
+
+.chat-box .chat-right-aside .chat .chat-message .attachment {
+    border-radius: 14px 0px 0px 14px;
+    background: transparent !important;
+}
+
+#message-to-send:focus {
+    outline: 0 !important;
+    box-shadow: none !important;
+}
+
+/* attachment modal */
+#attachementModal .closeBtn {
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: #636266;
+    background: transparent;
+    padding: 8px 16px;
+    height: 54px;
+}
+
+#attachementModal .attachBtn {
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: #fff;
+    text-decoration: none;
+    padding: 8px 16px;
+    background: #4d5997;
+    height: 54px;
+}
+
+#attachementModal .attachBtnDisable {
+    color: #b3b1b1;
+}
+
+/* asset search */
+
+.attachementModalTitle {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+.assetSearchResult {
+    background: #f7f7f7;
+    border-radius: 12px;
+}
+.assetSearchResult #selectAsset {
+    border-radius: 100% !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+.assetSearchResult #selectAsset:checked {
+    background-color: #4d5997 !important;
+    border-color: #4d599700 !important;
+    border-radius: 100% !important;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.assetSearchResult .type {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #949499;
+}
+
+.assetSearchResult .name {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #313133;
+}
+
+.assetSearchResult .desc {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.assetSearchResult .othersDetails {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: #636266;
+}

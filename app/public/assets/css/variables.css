@@ -1,0 +1,11 @@
+:root {
+    --theme-deafult: #4D5997;
+    --theme-white: #fff;
+    --theme-white-op25: rgba(255, 255, 255, 0.25);
+    --theme-light-grey-bg: rgba(116, 139, 178, 0.1);
+    --theme-natural-gray-7: #313133;
+    --theme-natural-gray-6: #636266;
+    --theme-natural-gray-5: #949499;
+    --theme-natural-gray-3: #DEDDE6;
+    --theme-status-success: #079D31;
+}

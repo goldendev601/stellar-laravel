@@ -1,0 +1,246 @@
+.fw-400 {
+    font-weight: 400;
+}
+
+.fw-600 {
+    font-weight: 600;
+}
+
+.fw-700 {
+    font-weight: 700;
+}
+.libraryPage .text-tags,
+.libraryPage .text-photos {
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+}
+.leftSideSecrchBox {
+    padding: 20px 20px 20px 30px;
+}
+.supplierList {
+    font-family: "Lato";
+    font-style: normal;
+    margin-bottom: 30px;
+}
+.supplierList ul {
+    list-style-type: none;
+}
+.supplierList ul li {
+    border-bottom: 1px solid #eee;
+}
+.supplierList ul li:last-child {
+    border-bottom: none;
+}
+.supplierList ul li a {
+    display: -ms-flexbox;
+    display: flex;
+    align-items: center;
+    padding: 15px 15px 15px 30px;
+}
+.supplierList ul li a:hover {
+    background: #edeef4;
+    box-shadow: 0px 0px 20px rgba(8, 21, 66, 0.05);
+    transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transition: 1s;
+}
+.supplierList ul li img {
+    border-radius: 5px;
+    border: 1px solid #eee;
+    padding: 1px;
+    width: 50px;
+    height: 50px;
+}
+
+.supplierList ul li div {
+    padding: 0 20px;
+    margin: 0;
+}
+.supplierList ul li p {
+    margin: 0;
+}
+
+.supplierList ul li a.ative {
+    background: #edeef4;
+    box-shadow: 0px 0px 20px rgba(8, 21, 66, 0.05);
+    transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+    -webkit-transition: 1s;
+}
+
+.supplierList ul li a .name {
+    font-size: 16px;
+    line-height: 21px;
+}
+
+.supplierList ul li a .type {
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.editSupplierBtn {
+    font-size: 14px;
+    line-height: 21px;
+    color: #4d5997;
+    background: rgba(116, 139, 178, 0.1) !important;
+    border-radius: 10px;
+}
+
+.supplierPhoto img {
+    width: 276px;
+    height: 184px;
+}
+
+.rowSupplierProfile {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 100%;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.photo-column img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.details-column h4 {
+    margin-bottom: 0px;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 21px;
+}
+.details-column span {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 21px;
+}
+.details-column p {
+    font-style: normal;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+.double-column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 5;
+}
+
+.general-info h3 {
+    font-size: 18px;
+    line-height: 14px;
+    text-transform: uppercase;
+}
+
+.general-info .email {
+    font-size: 14px;
+    line-height: 18px;
+    color: #4d5997;
+}
+
+/* add new supplier */
+
+.add-new-supplier-btn {
+    background: #4d5997;
+    border-radius: 8px;
+    padding: 2px 10px;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.add-new-supplier-btn a {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: #ffffff;
+    background: transparent;
+    border: none;
+    display: flex;
+    gap: 5px;
+}
+.add-new-supplier-btn a:hover {
+    color: #ffffff;
+}
+
+#photoupload-dropzone {
+    min-height: 150px;
+    border: 1px solid #ced4da !important;
+}
+.uploadIcon {
+    width: 70px;
+    height: 70px;
+    color: #000000;
+    opacity: 0.07;
+}
+.dropzoneHelpMsg {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 13px;
+    color: #000000;
+
+    opacity: 0.5;
+}
+
+#logoupload-dropzone {
+    width: 180px;
+    height: 180px;
+    border-radius: 100%;
+    border: 1px solid #ced4da !important;
+}
+
+.tagify.form-control tag, .tagify.form-control .tagify__input{
+    top: -4px;
+}
+.hide{
+    display: none !important;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.vendor-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    padding: 10px;
+    border: 1px solid #eeeeee;
+}
+.vendor-logo-has-image{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px !important;
+    height: 300px !important;
+}
+.vendor-logo-has-image .dz-preview.dz-image-preview{
+    position: absolute;
+    bottom: 15px;
+    margin: 0 !important;
+}
+.vendor-logo-has-image .dz-preview.dz-image-preview .dz-image{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

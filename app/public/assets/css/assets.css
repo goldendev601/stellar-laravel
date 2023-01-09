@@ -1,0 +1,817 @@
+.required:after {
+    content: " *";
+    color: red;
+    font-size: 16px;
+}
+
+.fa-info-circle {
+    color: #000000;
+    opacity: 0.3;
+}
+
+.typeLabel {
+    color: #333333;
+    font-weight: 600;
+}
+
+label {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+
+    color: #333333;
+}
+
+#active-category {
+    background: rgba(77, 89, 151, 0.1) !important;
+    border: 1px solid rgba(0, 0, 0, 0.1) !important;
+    font-family: "Lato" !important;
+    font-style: normal !important;
+    font-weight: 700 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    /* identical to box height, or 150% */
+
+    text-align: center;
+
+    /* Buttons */
+
+    color: #4d5997 !important;
+}
+
+input,
+select,
+textarea {
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+}
+
+#asset-form .input-group-text {
+    height: 45px !important;
+    background: #fff !important;
+    width: 30px !important;
+}
+
+/* sylye venue address autocomplete */
+#venue-address-suggestions i.prependIcon {
+    position: absolute;
+    top: 65%;
+    z-index: 7;
+    left: 25px;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+#venue-address-suggestions #address {
+    padding-left: 45px !important;
+}
+
+#venue-address-suggestions .tt-menu {
+    background: #ffffff !important;
+    box-shadow: 0px 8px 16px rgb(0 0 0 / 15%) !important;
+    border-radius: 10px !important;
+}
+
+#venue-address-suggestions .tt-suggestion {
+    font-family: "Lato" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    color: #4d5997 !important;
+    padding: 8px 15px !important;
+    border-top: none !important;
+    opacity: 1 !important;
+}
+
+#venue-address-suggestions .tt-suggestion:hover {
+    background: rgba(77, 89, 151, 0.1);
+}
+
+#venue-address-suggestions .tt-highlight {
+    font-weight: 700 !important;
+}
+
+/* dates input styles */
+
+#asset-form #datesInputField i.prependIcon,
+#asset-form #accommodationDeadlineDate i.prependIcon {
+    position: absolute;
+    top: 65%;
+    z-index: 7;
+    left: 25px;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+#asset-form #datesInputField #dates {
+    padding-left: 45px !important;
+}
+
+/* 2 */
+
+#asset-form #accommodationDeadlineDate i.prependIcon,
+#asset-form #accommodationDateCheckin i.prependIcon,
+#asset-form #accommodationDateCheckout i.prependIcon {
+    position: absolute;
+    top: 20%;
+    z-index: 7;
+    left: 15px;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+#asset-form #accommodationDeadlineTime i.prependIcon,
+#asset-form #accommodationCheckinTime i.prependIcon,
+#asset-form #accommodationCheckoutTime i.prependIcon {
+    position: absolute;
+    top: 20%;
+    z-index: 7;
+    left: 52%;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+#asset-form #accommodationDateCheckinield,
+#asset-form #accommodationCheckinTimeField,
+#asset-form #accommodationDateCheckoutField,
+#asset-form #accommodationCheckoutTimeField,
+#asset-form #accommodationDeadlineDateField,
+#asset-form #accommodationDeadlineTimeField {
+    padding-left: 45px !important;
+}
+/* 3 */
+
+#checkinInputField i.prependIcon,
+#checkoutInputField i.prependIcon,
+#venueNameInputField i.prependIcon {
+    position: absolute;
+    top: 65%;
+    z-index: 7;
+    left: 25px;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+#checkinInputField i.prependIcon,
+#checkoutInputField i.prependIcon {
+    left: 25px !important;
+}
+
+#asset-form #deadlineInputField #deadline,
+#checkinInputField #check_in,
+#checkoutInputField #check_out,
+#venueNameInputField #venue_name {
+    padding-left: 45px !important;
+}
+/* dinning tab Date and time of event  */
+#DinningDateOfReservation i.prependIcon {
+    position: absolute;
+    top: 23%;
+    z-index: 7;
+    left: 15px;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+#DinningDateOfReservation #DinningDateOfReservationField {
+    padding-left: 45px !important;
+}
+
+#DinningTimeOfReservation i.prependIcon {
+    position: absolute;
+    top: 23%;
+    z-index: 7;
+    left: 52%;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+#DinningTimeOfReservation #DinningTimeOfReservationField {
+    padding-left: 45px !important;
+}
+/* 2 */
+#DinningDateOfDeadline i.prependIcon {
+    position: absolute;
+    top: 23%;
+    z-index: 7;
+    left: 15px;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+#DinningDateOfDeadline #DinningDateOfDeadlineField {
+    padding-left: 45px !important;
+}
+
+#DinningTimeOfDeadline i.prependIcon {
+    position: absolute;
+    top: 23%;
+    z-index: 7;
+    left: 52%;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+#DinningTimeOfDeadline #DinningTimeOfDeadlineField {
+    padding-left: 45px !important;
+}
+.bootstrap-datetimepicker-widget {
+    width: 50% !important;
+    text-align: center !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+}
+
+/* event tab Date and time of event  */
+#EventDateOfReservation i.prependIcon {
+    position: absolute;
+    top: 23%;
+    z-index: 7;
+    left: 15px;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+#EventDateOfReservation #EventDateOfReservationField {
+    padding-left: 45px !important;
+}
+
+#EventTimeOfReservation i.prependIcon {
+    position: absolute;
+    top: 23%;
+    z-index: 7;
+    left: 52%;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+#EventTimeOfReservation #EventTimeOfReservationField {
+    padding-left: 45px !important;
+}
+/* 2 */
+#EventDateOfDeadline i.prependIcon {
+    position: absolute;
+    top: 23%;
+    z-index: 7;
+    left: 15px;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+#EventDateOfDeadline #EventDateOfDeadlineField {
+    padding-left: 45px !important;
+}
+
+#EventTimeOfDeadline i.prependIcon {
+    position: absolute;
+    top: 23%;
+    z-index: 7;
+    left: 52%;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+#EventTimeOfDeadline #EventTimeOfDeadlineField {
+    padding-left: 45px !important;
+}
+/* misc tab Date and time of event  */
+#assetDate i.prependIcon {
+    position: absolute;
+    top: 65%;
+    z-index: 7;
+    left: 25px;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+#assetDate #assetDateField {
+    padding-left: 45px !important;
+}
+
+#MiscDateOfDeadline i.prependIcon {
+    position: absolute;
+    top: 23%;
+    z-index: 7;
+    left: 15px;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+#MiscDateOfDeadline #MiscDateOfDeadlineField {
+    padding-left: 45px !important;
+}
+
+#MiseTimeOfDeadline i.prependIcon {
+    position: absolute;
+    top: 23%;
+    z-index: 7;
+    left: 52%;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+#MiseTimeOfDeadline #MiseTimeOfDeadlineField {
+    padding-left: 45px !important;
+}
+
+#MiscFirstEventDate i.prependIcon {
+    position: absolute;
+    top: 23%;
+    z-index: 7;
+    left: 15px;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+#MiscFirstEventDate #MiscFirstEventDateField {
+    padding-left: 45px !important;
+}
+
+#MiscFirstEventTime i.prependIcon {
+    position: absolute;
+    top: 23%;
+    z-index: 7;
+    left: 52%;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+#MiscFirstEventTime #MiscFirstEventTimeField {
+    padding-left: 45px !important;
+}
+/* MiscLastEventDate */
+#MiscLastEventDate i.prependIcon {
+    position: absolute;
+    top: 23%;
+    z-index: 7;
+    left: 15px;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+#MiscLastEventDate #MiscLastEventDateField {
+    padding-left: 45px !important;
+}
+
+#MiscLastEventTime i.prependIcon {
+    position: absolute;
+    top: 23%;
+    z-index: 7;
+    left: 52%;
+    font-size: 16px !important;
+    font-weight: 900;
+    line-height: 29px;
+    color: #000000;
+    opacity: 0.3;
+}
+
+#MiscLastEventTime #MiscLastEventTimeField {
+    padding-left: 45px !important;
+}
+
+/* accomodation tag input styles */
+.accomodationTagInput > .bootstrap-tagsinput {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.accomodationTagInput > .bootstrap-tagsinput .label-info {
+    display: flex !important;
+    background: #4d5997 !important;
+    border-radius: 56px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 10px !important;
+    font-family: "SF Pro Text" !important;
+    font-style: normal !important;
+    font-weight: 590 !important;
+    font-size: 12px !important;
+    line-height: 15px !important;
+
+    color: #ffffff !important;
+}
+
+/* dinning tag input styles */
+.dinningTagInput > .bootstrap-tagsinput {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.dinningTagInput > .bootstrap-tagsinput .label-info {
+    display: flex !important;
+    background: #4d5997 !important;
+    border-radius: 56px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 10px !important;
+    font-family: "SF Pro Text" !important;
+    font-style: normal !important;
+    font-weight: 590 !important;
+    font-size: 12px !important;
+    line-height: 15px !important;
+    margin-top: 2px;
+    color: #ffffff !important;
+}
+.dinningTagInput > .bootstrap-tagsinput .tag [data-role="remove"]:hover {
+    box-shadow: none !important;
+}
+/* event tag input styles */
+.eventTagInput > .bootstrap-tagsinput {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.eventTagInput > .bootstrap-tagsinput .label-info {
+    display: flex !important;
+    background: #4d5997 !important;
+    border-radius: 56px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 10px !important;
+    font-family: "SF Pro Text" !important;
+    font-style: normal !important;
+    font-weight: 590 !important;
+    font-size: 12px !important;
+    line-height: 15px !important;
+    margin-top: 2px;
+    color: #ffffff !important;
+}
+
+.eventTagInput > .bootstrap-tagsinput .tag [data-role="remove"]:hover {
+    box-shadow: none !important;
+}
+
+/* misc tag input styles */
+.miscTagInput > .bootstrap-tagsinput {
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.miscTagInput > .bootstrap-tagsinput .label-info {
+    display: flex !important;
+    background: #4d5997 !important;
+    border-radius: 56px !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 10px !important;
+    font-family: "SF Pro Text" !important;
+    font-style: normal !important;
+    font-weight: 590 !important;
+    font-size: 12px !important;
+    line-height: 15px !important;
+    margin-top: 2px;
+    color: #ffffff !important;
+}
+
+.miscTagInput > .bootstrap-tagsinput .tag [data-role="remove"]:hover {
+    box-shadow: none !important;
+}
+
+.assetFormMereInfoTitle {
+    font-size: 22px;
+    line-height: 15px;
+    color: #000000;
+}
+
+.tooltip .tooltip-inner {
+    background: #ffffff !important;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.25) !important;
+    border-radius: 7px !important;
+    font-family: "Lato" !important;
+    font-style: normal !important;
+    font-weight: 400 !important;
+    font-size: 12px !important;
+    line-height: 13px !important;
+    color: #000000 !important;
+    padding: 12px !important;
+    text-align: left !important;
+}
+
+.tooltip.bs-tooltip-top .tooltip-arrow:before {
+    border: none !important;
+}
+.preview-assets-btn {
+    border: 1px solid #4d5997;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #4d5997;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 21px;
+    letter-spacing: 0.11em;
+}
+
+.select2-container .select2-selection--single {
+    display: block;
+    width: 100%;
+    padding: 0.375rem 0.75rem !important;
+    font-size: 1rem !important;
+    font-weight: 400 !important;
+    line-height: 1.5 !important;
+    color: #212529 !important;
+    background-color: #fff !important;
+    background-clip: padding-box;
+    border: 1px solid #ced4da !important;
+    border-radius: none !important;
+    height: 45px !important;
+}
+.addnewseller-btn {
+    display: flex;
+    flex-direction: row;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    color: #4d5997;
+    padding: 10px 16px 8px;
+    background: rgba(77, 89, 151, 0.1);
+}
+
+/* Add new seller popup */
+#add-new-seller-pop-up h5 {
+    font-size: 28px;
+    line-height: 34px;
+    color: #000000;
+}
+
+#add-new-seller-pop-up .cancel-btn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    background: #ffffff !important;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: #636266;
+    height: 54px;
+}
+
+#add-new-seller-pop-up .addnew-seller-btn {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    border: 1px solid #d9d9d9;
+    border-radius: 8px;
+    background: #4d5997 !important;
+    font-size: 12px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: #ffffff;
+    height: 54px;
+}
+
+#add-new-seller-pop-up label {
+    font-weight: 600 !important;
+    font-size: 12px !important;
+    line-height: 20px !important;
+    letter-spacing: 0.05em !important;
+    text-transform: uppercase !important;
+    color: #333333 !important;
+}
+
+/* cost input field css */
+
+#currencySelect {
+    appearance: auto !important;
+}
+#durationSelect {
+    appearance: auto !important;
+}
+
+.form-control:focus {
+    /* border-color: #86b7fe00 !important; */
+    box-shadow: none !important;
+
+    border-color: #ced4da !important;
+}
+
+/** Preview of collections of uploaded documents **/
+
+/* validation  */
+.error {
+    margin: 0px !important;
+}
+#add-new-seller-pop-up label.error {
+    color: red !important;
+    text-transform: capitalize !important;
+    font-family: Lato, sans-serif !important;
+}
+.has-error input,
+.has-error select,
+.has-error textarea {
+    border-color: red !important;
+}
+.has-error label {
+    color: red !important;
+}
+.validation-error {
+    color: red !important;
+}
+
+/* new fileUploadExplorer design */
+
+.fileUploadExplorer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 10px;
+
+    width: 180px;
+    height: 150px;
+
+    background: rgb(172 172 172 / 48%);
+    cursor: pointer;
+}
+
+.fileUploadExplorer h6 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #000000;
+    opacity: 0.5;
+}
+.fileUploadExplorer i {
+    font-weight: 900;
+    font-size: 50px;
+    line-height: 29px;
+    color: #000000;
+
+    opacity: 0.3;
+}
+
+.uploadedFilePreview {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    overflow: hidden;
+    padding: 0px 10px 0px 0px;
+}
+
+.imageThumbList {
+    cursor: pointer;
+    width: 180px !important;
+    height: 150px !important;
+    object-fit: cover;
+}
+.pip {
+    display: inline-block;
+    position: relative;
+}
+.remove {
+    position: absolute;
+    right: -5px;
+    top: -2px;
+    cursor: pointer;
+    font-size: 1em !important;
+    margin: 0px !important;
+    background: red;
+    border-radius: 100%;
+    padding: 4px;
+    color: #ffffff;
+    border: 2px solid#fff;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.remove:hover {
+    background: white;
+    color: black;
+}
+
+/* search auto complete */
+
+.list-autocomplete {
+    padding: 0;
+}
+.list-autocomplete span {
+    font-family: "Lato" !important;
+    font-style: normal !important;
+    color: #4d5997;
+    font-weight: 900;
+}
+
+.hasNoResults {
+    display: block;
+    padding: 10px;
+}
+
+.hasNoResults {
+    color: #4d5997;
+}
+
+#venueNameDropdown {
+    width: 100%;
+    background: #ffffff;
+    box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.15);
+    border-radius: 10px;
+}
+
+#venueNameDropdown .dropdown-item {
+    font-family: "Lato" !important;
+    font-style: normal !important;
+    font-size: 14px;
+    line-height: 21px;
+    padding: 16px 26px 8px;
+    border: none !important;
+    /* identical to box height, or 150% */
+
+    /* Buttons */
+
+    color: #4d5997 !important;
+    opacity: 1 !important;
+}
+
+#venueNameDropdown .dropdown-item:hover {
+    background: rgba(77, 89, 151, 0.1);
+}
